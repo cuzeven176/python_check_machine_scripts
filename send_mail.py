@@ -44,7 +44,7 @@ html_tail = '''
     </html>
     '''
 
-html_head = '''	<html><body><h1>园博园检测报告</h1>
+html_head = '''	<html><body><h1>运维检测报告</h1>
     	   <hr>
     	   <h2>生产机器磁盘空间：</h2>
     	   <p>超出百分之50,需关注！</p>
@@ -57,8 +57,8 @@ def content(middle):
     def _format_addr(s):
         name, addr = parseaddr(s)
         return formataddr((Header(name, 'utf-8').encode(), addr))
-    sender_mail = "jdcs1231@163.com"
-    to_mail = ["ext.huangzhijun1@jd.com","ext.yangchao1@jd.com"]
+    sender_mail = "******@163.com"
+    to_mail = ["****@****.com","****@****.com"]
     html_sub = MIMEMultipart('related')
     html_sub['Subject'] = Header('服务器磁盘空间检查', 'utf-8').encode()
     html_sub['From'] = _format_addr('YBY_Admin <%s>' % sender_mail)
