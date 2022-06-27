@@ -325,9 +325,7 @@ if __name__ == "__main__":
 			<br><img src="cid:disk_usage_export_haoop03" width="80%%"><br>
 		    <hr>
     		<h4>end: 此邮件为程序自动发出。内容及格式优化中。。。。</h4>
-			<h5>您收到此邮件是因为在参与园博园项目，如不需要，请回信告知。</h5>
 			<hr>
-			<p>系统运维组
 			<br>
 
 			</body></html>'''
